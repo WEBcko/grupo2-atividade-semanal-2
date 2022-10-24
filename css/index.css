@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Poppins', sans-serif;  
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 24px;
     color: #663128;
 }
@@ -18,11 +18,59 @@ body{
     height: 100vh;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
+.poligono-cima {
+    position: absolute;
 }
 
-.logo {
-    width: 35%;
+.home .container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    align-items: center;
+}
+
+.home .container .msg {
+    display: flex;
+    flex-direction: column;
+}
+
+.home .container .msg .bigger {
+    font-size: 80px;
+    line-height: 118.5%;
+    font-weight: 900;
+
+}
+.home .container .msg .big {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.435em;
+}
+.home .container .msg .space {
+    padding: 10px;
+}
+
+.home .container .msg .space .help{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #F3CE5E;
+    border-radius: 57px;
+    color: #663128;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home .container .msg .space .aboutus{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: transparent;
+    color: #663128;
+    font-size: 16px;
+
+}
+.home .container .msg .logo {
+    width: 90%;
 }
