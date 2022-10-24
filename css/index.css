@@ -1,14 +1,80 @@
 body {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
-  color: #ffffff;
-  margin: 0px;
-  padding: 0px;
-  background-color: #7c4032;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #663128;
 }
+
+.home {
+    background-color: #FEF4DE;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.poligono-cima {
+    position: absolute;
+}
+
+.home .container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    align-items: center;
+}
+
+.home .container .msg {
+    display: flex;
+    flex-direction: column;
+}
+
+.home .container .msg .bigger {
+    font-size: 80px;
+    line-height: 118.5%;
+    font-weight: 900;
+
+}
+.home .container .msg .big {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.435em;
+}
+.home .container .msg .space {
+    padding: 10px;
+}
+
+.home .container .msg .space .help{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #F3CE5E;
+    border-radius: 57px;
+    color: #663128;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.home .container .msg .space .aboutus{
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: transparent;
+    color: #663128;
+    font-size: 16px;
+
+}
+.home .container .msg .logo {
+    width: 90%;
+}
+
 
 .services {
   width: 100vw;
