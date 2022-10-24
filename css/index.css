@@ -74,3 +74,53 @@ body {
 .home .container .msg .logo {
     width: 90%;
 }
+
+
+.services {
+  width: 100vw;
+  height: 100vh;
+}
+
+.services-container {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.services-container-header {
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.services-container-box-img {
+  width: 50%;
+  padding: 20px;
+}
+
+.services-container-button {
+  /* background-color: #F3CE5E;
+    color: #663128;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:10%;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: -48px; */
+
+  width: 200px;
+  height: 60px;
+  border: none;
+  background: #f3ce5e;
+  border-radius: 57px;
+  color: #663128;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+}
