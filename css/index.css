@@ -149,13 +149,13 @@ body {
   height: 500px;
   flex-direction: row;
   flex-wrap: wrap;
-  align-content: space-between;
+  align-content: center;
   justify-content: space-around;
 }
 
 .comentarios .container .testymonials .coment{
   border: solid #7C4032 1px;
-  width: 470px;
+  width: 400px;
   height: 150px;
   background-color: #FFF;
   border-radius: 30px;
