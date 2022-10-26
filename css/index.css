@@ -156,11 +156,39 @@ body {
 .comentarios .container .testymonials .coment{
   border: solid #7C4032 1px;
   width: 400px;
-  height: 150px;
+  height: 180px;
   background-color: #FFF;
   border-radius: 30px;
-  margin-bottom: 35px;
-  padding: 15px;
+  margin-bottom: 25px;
+}
+
+.comentarios .container .testymonials .coment h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-bottom: -5px;
+  margin-top: 5px;
+}
+
+.comentarios .container .testymonials .coment p{
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
+  padding-left: 10px;
+}
+
+.comentarios .container .help{
+  background-color: #F3CE5E;
+  border-radius: 57px;
+  width: 210px;
+  height: 66px;
+  font-family: 'Poppins', sans-serif;
+  color: #7C4032;
+  font-size: 18px;
+  text-align: center;
+  border: none;
+}
+
+.comentarios .container .testymonials .coment .img1{
+
+  padding-left: 10px;
 }
