@@ -1,1 +1,1 @@
-# grupo2-ativade-semanal-2
+# grupo2-atividade-semanal-2
