@@ -15,8 +15,8 @@ body {
 } */
 
 .home {
-   background-color: #fef4de; 
-   background-image: url("../img/background.png"); 
+  background-color: #fef4de; 
+  background-image: url("./img/background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100vh;
