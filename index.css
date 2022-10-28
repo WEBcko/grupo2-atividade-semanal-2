@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
 body {
   margin: 0px;
   padding: 0px;
@@ -16,7 +18,7 @@ body {
 
 .home {
   background-color: #fef4de; 
-  background-image: url("../img/background.png"); 
+  background-image: url("background.png"); 
   background-repeat: no-repeat;
   background-size: cover;
   min-width: 100vh;
@@ -164,7 +166,7 @@ body {
 
 .comentarios {
   background-color: #fef4de;
-  background-image: url("../img/background.png");
+  background-image: url("background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -324,18 +326,18 @@ body {
 
 .contatos .container .conteudo .informacoes .email {
 
-  list-style-image: url("../img/email.png");
+  list-style-image: url("email.png");
   padding-left: 15px;
 }
 
 .contatos .container .conteudo .informacoes .telefone {
 
-  list-style-image: url("../img/telefone.png");
+  list-style-image: url("telefone.png");
   padding-left: 15px;
 }
 
 .contatos .container .conteudo .informacoes .location {
 
-  list-style-image: url("../img/location.png");
+  list-style-image: url("location.png");
   padding-left: 15px;
 }
